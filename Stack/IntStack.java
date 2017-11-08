@@ -42,5 +42,9 @@ public class IntStack{
     public int pop(){
         return stack[top--];
     }
-
+    
+    //Returns the first item in the Stack
+    public int peek(){
+        return stack[top];
+    }
 }
