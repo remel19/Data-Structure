@@ -8,7 +8,7 @@ public class IntStack{
     public IntStack (){
         top = -1;
         size = 50;
-        stack = new int[50];
+        stack = new int[size];
     }
     
     //Constructor with Stack size initializr
